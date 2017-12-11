@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Movies">
+        <menu>
+            <item
+                android:id="@+id/nav_popular"
+                android:icon="@drawable/ic_movie_popular_black_24dp"
+                android:title="@string/popular" />
+            <item
+                android:id="@+id/nav_top_rate"
+                android:icon="@drawable/ic_rate_review_black_24dp"
+                android:title="@string/top_rate" />
+            <item
+                android:id="@+id/nav_upcoming"
+                android:icon="@drawable/ic_local_movies_black_24dp"
+                android:title="@string/upcoming" />
+
+        </menu>
+    </item>
+
+    <item android:title="Options">
+        <menu>
+            <item
+                android:id="@+id/nav_clear_cache"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/clear_cache" />
+        </menu>
+    </item>
+
+</menu>
